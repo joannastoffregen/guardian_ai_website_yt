@@ -1,0 +1,25 @@
+---
+description: Ensures the style guide stays in sync with implementation
+globs:
+alwaysApply: true
+---
+
+## Style Guide Governance
+
+website-guidelines/STYLE_GUIDE.md is the authoritative global design system.
+
+Section specification files (website-sections/*.md) are inputs and may contain
+section-specific or experimental design decisions.
+
+When implementing a section:
+- If a design decision is reusable or appears in more than one section,
+  it MUST be documented in website-guidelines/STYLE_GUIDE.md.
+- If a design decision is section-specific, keep it in the section file only.
+
+If implementation diverges from website-guidelines/STYLE_GUIDE.md:
+1. If the new approach looks/works better, keep it.
+2. Update website-guidelines/STYLE_GUIDE.md to match what we actually implemented.
+3. Add a changelog entry noting what changed and why.
+4. Do not duplicate section-specific instructions in the style guide.
+
+Never silently diverge from the style guide
