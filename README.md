@@ -6,7 +6,7 @@ This repository contains all the documentation, design guidelines, and specifica
 
 ## 📺 YouTube Tutorial
 
-**[Watch the full tutorial here]([https://youtube.com](https://www.youtube.com/watch?v=WqSf0noa4hk)** *(Link to be added)*
+**[Watch the full tutorial here]([https://youtube.com](https://www.youtube.com/watch?v=WqSf0noa4hk)** 
 
 Follow along step-by-step as we build a modern, dark-themed SaaS landing page with:
 - Next.js 14 + TypeScript
